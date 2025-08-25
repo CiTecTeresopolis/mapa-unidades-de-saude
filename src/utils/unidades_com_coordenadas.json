@@ -1,0 +1,275 @@
+{
+  "unidades": [
+    {
+      "unidade": "CEMUSA - São Pedro",
+      "categoria": "Centro Municipal de Saúde",
+      "endereço": "Rua José Augusto da Costa",
+      "bairro": "Várzea",
+      "distrito": "1° Distrito",
+      "latitude": -22.4304525,
+      "longitude": -42.9991032
+    },
+    {
+      "unidade": "CEO - São Pedro",
+      "categoria": "Centro de Especialidades Odontológicas",
+      "endereço": "Rua Palmira Maria de Oliveira, 80",
+      "bairro": "São Pedro",
+      "distrito": "1° Distrito",
+      "latitude": -22.4298204,
+      "longitude": -42.9679324
+    },
+    {
+      "unidade": "CEO - Várzea",
+      "categoria": "Centro de Especialidades Odontológicas",
+      "endereço": "Rua Heitor de Moura Estevão, 300",
+      "bairro": "Várzea",
+      "distrito": "1° Distrito",
+      "latitude": -22.4078163,
+      "longitude": -42.969988
+    },
+    {
+      "unidade": "ESF - Alto",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua São Gonçalo de Castro, n° 324",
+      "bairro": "Alto",
+      "distrito": "1° Distrito",
+      "latitude": -22.439889,
+      "longitude": -43.013272
+    },
+    {
+      "unidade": "ESF - araras",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Amazonas n° 35",
+      "bairro": "Araras",
+      "distrito": "1° Distrito",
+      "latitude": -22.4335549,
+      "longitude": -42.9730358
+    },
+    {
+      "unidade": "ESF - Barra",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Avenida Presidente Roosevelt, 1510",
+      "bairro": "Barra do Imbuí",
+      "distrito": "1° Distrito",
+      "latitude": -22.4009171,
+      "longitude": -42.9826019
+    },
+    {
+      "unidade": "ESF - Beira Linha",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Guaporé, 175",
+      "bairro": "Beira Linha",
+      "distrito": "1° Distrito",
+      "latitude": -22.430428,
+      "longitude": -42.9794648
+    },
+    {
+      "unidade": "ESF - Fazenda Ermitage",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Estrada Rio Bahia, km 116",
+      "bairro": "Fazenda Ermitage",
+      "distrito": "1° Distrito",
+      "latitude": -22.3856,
+      "longitude": -42.9234
+    },
+    {
+      "unidade": "ESF - Fonte Santa",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Estrada Fonte Santa, 1448",
+      "bairro": "Fonte Santa",
+      "distrito": "1° Distrito",
+      "latitude": -22.3962068,
+      "longitude": -42.9537501
+    },
+    {
+      "unidade": "ESF - Granja Florestal",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Maria Quintéria, 62",
+      "bairro": "Salaco",
+      "distrito": "1° Distrito",
+      "latitude": -22.3721258,
+      "longitude": -42.9817472
+    },
+    {
+      "unidade": "ESF - Granja Guaraní",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Alameda Maués, 269",
+      "bairro": "Granja Guaraní",
+      "distrito": "1° Distrito",
+      "latitude": -22.4434804,
+      "longitude": -42.9888765
+    },
+    {
+      "unidade": "ESF - Meudon",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Caramuru, 120",
+      "bairro": "Meudon",
+      "distrito": "1° Distrito",
+      "latitude": -22.4344201,
+      "longitude": -42.9456234
+    },
+    {
+      "unidade": "ESF - Pimenteiras",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Dr. Oliveira, 950",
+      "bairro": "Pimenteiras",
+      "distrito": "1° Distrito",
+      "latitude": -22.4267,
+      "longitude": -42.9523
+    },
+    {
+      "unidade": "ESF - Pimentel",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Manoel Carreiro de Mello",
+      "bairro": "Pimentel",
+      "distrito": "1° Distrito",
+      "latitude": -22.4039493,
+      "longitude": -42.9792463
+    },
+    {
+      "unidade": "ESF - Quinta Lebrão",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Vinte e Cinco de Dezembro, n° 14",
+      "bairro": "Quinta Lebrão",
+      "distrito": "1° Distrito",
+      "latitude": -22.4081926,
+      "longitude": -42.9496748
+    },
+    {
+      "unidade": "ESF - Rosário",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua São Pedro, 631",
+      "bairro": "São Pedro",
+      "distrito": "1° Distrito",
+      "latitude": -22.4303327,
+      "longitude": -42.9649733
+    },
+    {
+      "unidade": "ESF - Vargem Grande",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Rua Diógenes Pedro da Costa, n° 98",
+      "bairro": "Vargem Grande",
+      "distrito": "3° Distrito",
+      "latitude": -22.379619,
+      "longitude": -42.8629789
+    },
+    {
+      "unidade": "ESF - Venda Nova",
+      "categoria": "Estratégia de Saúde da Família",
+      "endereço": "Estrada Teresópolis - Friburgo, km 15",
+      "bairro": "Venda Nova",
+      "distrito": "3° Distrito",
+      "latitude": -22.3585493,
+      "longitude": -42.8664014
+    },
+    {
+      "unidade": "Hemonúcleo Municipal",
+      "categoria": "Hemonúcleo",
+      "endereço": "Rua Francisco, 299",
+      "bairro": "Várzea",
+      "distrito": "1° Distrito",
+      "latitude": -22.4138758,
+      "longitude": -42.9704734
+    },
+    {
+      "unidade": "SPA Bonsucesso",
+      "categoria": "Serviço de Pronto Atendimento",
+      "endereço": "Estrada Teresópolis - Friburgo, km 28",
+      "bairro": "Bonsucesso",
+      "distrito": "3° Distrito",
+      "latitude": -22.3585493,
+      "longitude": -42.8664014
+    },
+    {
+      "unidade": "SPA Eitel Abdallah",
+      "categoria": "Serviço de Pronto Atendimento",
+      "endereço": "Praça dos Expedicionários",
+      "bairro": "São Pedro",
+      "distrito": "1° Distrito",
+      "latitude": -22.4252162,
+      "longitude": -42.9687148
+    },
+    {
+      "unidade": "UBS Água Quente",
+      "categoria": "Unidade Básica",
+      "endereço": "BR 116, km 40",
+      "bairro": "Água Quente",
+      "distrito": "2° Distrito",
+      "latitude": -22.124427,
+      "longitude": -42.779474
+    },
+    {
+      "unidade": "UBS Albuquerque",
+      "categoria": "unidade Básica",
+      "endereço": "Rodovia Dr Rogério de Moura Estevão, km 6,5",
+      "bairro": "Albuquerque",
+      "distrito": "1° Distrito",
+      "latitude": -22.3844466,
+      "longitude": -42.9125628
+    },
+    {
+      "unidade": "UBS Bonsucesso",
+      "categoria": "unidade Básica",
+      "endereço": "Rodovia Dr Rogério de Moura Estevão, km 28",
+      "bairro": "Bonsucesso",
+      "distrito": "3° Distrito",
+      "latitude": -22.2737279,
+      "longitude": -42.795053
+    },
+    {
+      "unidade": "UBS Fazenda Apina",
+      "categoria": "Unidade Básica",
+      "endereço": "Estrada do Engano",
+      "bairro": "Fazenda Alpina",
+      "distrito": "2° Distrito",
+      "latitude": -22.3405142,
+      "longitude": -42.9889832
+    },
+    {
+      "unidade": "UBS Pessegueiros",
+      "categoria": "Unidade Básica",
+      "endereço": "Rodovia Santos Dumont, km 67",
+      "bairro": "Pessegueiros",
+      "distrito": "2° Distrito",
+      "latitude": -22.3166947,
+      "longitude": -42.9404815
+    },
+    {
+      "unidade": "UBS Várzea",
+      "categoria": "Unidade Básica",
+      "endereço": "Avenida Lúcio Meira, 379",
+      "bairro": "Várzea",
+      "distrito": "1° Distrito",
+      "latitude": -22.4113893,
+      "longitude": -42.9717742
+    },
+    {
+      "unidade": "UBS Várzea - CMI",
+      "categoria": "Centro Materno Infantil",
+      "endereço": "Avenida Lúcio Meira, 379",
+      "bairro": "Várzea",
+      "distrito": "1° Distrito",
+      "latitude": -22.4113893,
+      "longitude": -42.9717742
+    },
+    {
+      "unidade": "UBS Vieira",
+      "categoria": "Unidade Básica",
+      "endereço": "Estr. Córrego das Pedras - Vale de Bonsucesso",
+      "bairro": "Vieira",
+      "distrito": "3° Distrito",
+      "latitude": -22.2886012,
+      "longitude": -42.7291083
+    },
+    {
+      "unidade": "UPA Nathan Garcia Leitão",
+      "categoria": "UPA 24 horas",
+      "endereço": "Rua Ten. Luiz Meireles, 1260",
+      "bairro": "Bom Retiro",
+      "distrito": "1° Distrito",
+      "latitude": -22.4217147,
+      "longitude": -42.9659232
+    }
+  ]
+}
+

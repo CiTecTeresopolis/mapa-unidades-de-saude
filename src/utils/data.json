@@ -1,0 +1,214 @@
+{
+  "unidades": [
+    {
+      "unidade": "cemusa - são pedro",
+      "categoria": "centro municipal de saúde",
+      "endereço": "rua josé augusto da costa",
+      "bairro": "várzea",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ceo - são pedro",
+      "categoria": "centro de especialidades odontológicas",
+      "endereço": "rua palmira maria de oliveira, 80",
+      "bairro": "são pedro",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ceo - várzea",
+      "categoria": "centro de especialidades odontológicas",
+      "endereço": "rua heitor de moura estevão, 300",
+      "bairro": "várzea",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - alto",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua são gonçalo de castro, n° 324",
+      "bairro": "alto",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - araras",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua amazonas n° 35",
+      "bairro": "araras",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - barra",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "avenida presidente roosevelt, 1510",
+      "bairro": "barra do imbuí",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - beira linha",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua guaporé, 175",
+      "bairro": "beira linha",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - fazenda ermitage",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "estrada rio bahia, km 116",
+      "bairro": "fazenda ermitage",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - fonte santa",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "estrada fonte santa, 1448",
+      "bairro": "fonte santa",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - granja florestal",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua maria quintéria, 62",
+      "bairro": "salaco",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - granja guaraní",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "alameda maués, 269",
+      "bairro": "guanja guaraní",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - meudon",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua caramuru, 120",
+      "bairro": "meudon",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - pimenteiras",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua dr oliveira, 950",
+      "bairro": "pimenteiras",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - pimentel",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua manoel carreiro de mello",
+      "bairro": "pimentel",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - quinta lebrão",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua vinte e cinco de dezembro, n° 14",
+      "bairro": "quinta lebrão",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - rosário",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua são pedro, 631",
+      "bairro": "são pedro",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "esf - vargem grande",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "rua diógenes pedro da costa, n° 98",
+      "bairro": "vargem grande",
+      "distrito": "3° Distrito"
+    },
+    {
+      "unidade": "esf - venda nova",
+      "categoria": "estratégia de saúde da família",
+      "endereço": "estrada teresópolis - friburgo, km 15",
+      "bairro": "venda nova",
+      "distrito": "3° Distrito"
+    },
+    {
+      "unidade": "hemonúcleo municipal",
+      "categoria": "hemonúcleo",
+      "endereço": "rua francisco, 299",
+      "bairro": "várzea",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "spa bonsucesso",
+      "categoria": "serviço de pronto atendimento",
+      "endereço": "estrada teresópolis - friburgo, km 28",
+      "bairro": "bonsucesso",
+      "distrito": "3° Distrito"
+    },
+    {
+      "unidade": "spa eitel abdallah",
+      "categoria": "serviço de pronto atendimento",
+      "endereço": "praça dos expedicionários",
+      "bairro": "são pedro",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ubs água quente",
+      "categoria": "unidade básica",
+      "endereço": "br 116, km 40",
+      "bairro": "água quente",
+      "distrito": "2° Distrito"
+    },
+    {
+      "unidade": "ubs albuquerque",
+      "categoria": "unidade básica",
+      "endereço": "rodovia dr rogério de moura estevão, km 6,5",
+      "bairro": "albuquerque",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ubs bonsucesso",
+      "categoria": "unidade básica",
+      "endereço": "rodovia dr rogério de moura estevão, km 28",
+      "bairro": "bonsucesso",
+      "distrito": "3° Distrito"
+    },
+    {
+      "unidade": "ubs fazenda apina",
+      "categoria": "unidade básica",
+      "endereço": "estrada do engano",
+      "bairro": "fazenda alpina",
+      "distrito": "2° Distrito"
+    },
+    {
+      "unidade": "ubs pessegueiros",
+      "categoria": "unidade básica",
+      "endereço": "rodovia santos dumont, km 67",
+      "bairro": "pessegueiros",
+      "distrito": "2° Distrito"
+    },
+    {
+      "unidade": "ubs várzea",
+      "categoria": "unidade básica",
+      "endereço": "avenida lúcio meira, 379",
+      "bairro": "várzea",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ubs várzea - cmi",
+      "categoria": "centro materno infantil",
+      "endereço": "avenida lúcio meira, 379",
+      "bairro": "várzea",
+      "distrito": "1° Distrito"
+    },
+    {
+      "unidade": "ubs vieira",
+      "categoria": "unidade básica",
+      "endereço": "rodovia dr rogério de moura estevão, km 35",
+      "bairro": "vieira",
+      "distrito": "3° Distrito"
+    },
+    {
+      "unidade": "upa nathan garcia leitão",
+      "categoria": "upa 24 horas",
+      "endereço": "rua ten. luiz meireles, 1260",
+      "bairro": "bom retiro",
+      "distrito": "1° Distrito"
+    }
+  ]
+}
