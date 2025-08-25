@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-const drawerWidth = 556;
+const drawerWidth = 500;
 
 let theme = createTheme({
   palette: {
