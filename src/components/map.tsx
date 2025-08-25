@@ -192,7 +192,7 @@ const defaultStyle = {
   weight: 2,
 };
 
-const categoryColors: { [key: string]: string } ={
+const categoryColors: { [key: string]: string } = {
   "centro municipal de saúde": "blue",
   "centro de especialidades odontológicas": "green",
   "estratégia de saúde da família": "orange",
@@ -205,7 +205,7 @@ const categoryColors: { [key: string]: string } ={
 
 // Função para criar um ícone com a cor da categoria
 const createCategoryIcon = (categoria: string) => {
-  const color = categoryColors[categoria.toLowerCase()] || "blue"; 
+  const color = categoryColors[categoria.toLowerCase()] || "blue";
   //@ts-ignore
   return L.AwesomeMarkers.icon({
     icon: "medical-bag",
@@ -214,16 +214,23 @@ const createCategoryIcon = (categoria: string) => {
   });
 };
 
-function Map({ unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distritosFiltrados }: any) {
+function Map({
+  unidadesFiltradas,
+  categoriasFiltradas,
+  bairrosFiltrados,
+  distritosFiltrados,
+}: any) {
   const geoJsonRef = useRef(null);
-   const [termoPesquisa, setTermoPesquisa] = useState("");
+  const [termoPesquisa, setTermoPesquisa] = useState("");
   const [unidadeSelecionada, setUnidadeSelecionada] = useState<any>(null);
-  const [unidadesVisiveis, setUnidadesVisiveis] = useState<any>(unidadesData.unidades);
+  const [unidadesVisiveis, setUnidadesVisiveis] = useState<any>(
+    unidadesData.unidades
+  );
 
   useEffect(() => {
     const filtrarUnidades = () => {
       let filtrado = unidadesData.unidades;
-      
+
       // Filtro por Unidades (se houver seleção)
       if (unidadesFiltradas.length > 0) {
         const nomesUnidades = unidadesFiltradas.map((u: any) => u.unidade);
@@ -232,7 +239,9 @@ function Map({ unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distrit
 
       // Filtro por Categoria (se houver seleção)
       if (categoriasFiltradas.length > 0) {
-        filtrado = filtrado.filter((u) => categoriasFiltradas.includes(u.categoria));
+        filtrado = filtrado.filter((u) =>
+          categoriasFiltradas.includes(u.categoria)
+        );
       }
 
       // Filtro por Bairro (se houver seleção)
@@ -242,13 +251,15 @@ function Map({ unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distrit
 
       // Filtro por Distrito (se houver seleção)
       if (distritosFiltrados.length > 0) {
-        filtrado = filtrado.filter((u) => distritosFiltrados.includes(u.distrito));
+        filtrado = filtrado.filter((u) =>
+          distritosFiltrados.includes(u.distrito)
+        );
       }
-      
+
       // Filtro por pesquisa textual
       if (termoPesquisa.trim() !== "") {
         const termo = termoPesquisa.toLowerCase().trim();
-        filtrado = filtrado.filter(unidade => {
+        filtrado = filtrado.filter((unidade) => {
           return (
             unidade.unidade.toLowerCase().includes(termo) ||
             unidade.categoria.toLowerCase().includes(termo) ||
@@ -263,8 +274,13 @@ function Map({ unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distrit
     };
 
     filtrarUnidades();
-  }, [unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distritosFiltrados, termoPesquisa]);
-
+  }, [
+    unidadesFiltradas,
+    categoriasFiltradas,
+    bairrosFiltrados,
+    distritosFiltrados,
+    termoPesquisa,
+  ]);
 
   const CardInfo = () => {
     return (
@@ -353,17 +369,23 @@ function Map({ unidadesFiltradas, categoriasFiltradas, bairrosFiltrados, distrit
               },
             }}
           >
-            <Tooltip direction="top" offset={[0, -20]} opacity={1} permanent>
+            <Tooltip
+              eventHandlers={{
+                click: () => {
+                  setUnidadeSelecionada(unidade);
+                },
+              }}
+              direction="top"
+              offset={[0, -20]}
+              opacity={1}
+              permanent
+            >
               {unidade.unidade.toUpperCase()}
             </Tooltip>
           </Marker>
         ))}
-        
-        <GeoJSON 
-          ref={geoJsonRef} 
-          data={geojsonData} 
-          style={defaultStyle} 
-        />
+
+        <GeoJSON ref={geoJsonRef} data={geojsonData} style={defaultStyle} />
       </MapContainer>
       {unidadeSelecionada && <CardInfo />}
     </div>
