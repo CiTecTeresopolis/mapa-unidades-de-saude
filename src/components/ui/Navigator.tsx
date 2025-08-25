@@ -1,3 +1,4 @@
+// Navigator.tsx
 import List from "@mui/material/List";
 import Drawer from "@mui/material/Drawer";
 import ListItem from "@mui/material/ListItem";
@@ -42,10 +43,10 @@ const {
     handleCategoriasChange,
     handleBairrosChange,
     handleDistritosChange,
-    unidadesFiltradas,
-    categoriasFiltradas,
-    bairrosFiltrados,
-    distritosFiltrados,
+    unidadesFiltradas = [],
+    categoriasFiltradas = [],
+    bairrosFiltrados = [],
+    distritosFiltrados = [],
     ...other
   } = props;
   const unidades = data.unidades;
@@ -75,21 +76,18 @@ const {
             onChange={handleUnidadesChange} 
             disableCloseOnSelect
             getOptionLabel={(option) => option.unidade}
-            renderOption={(props, option, { selected }) => {
-              const { key, ...optionProps } = props;
-              return (
-                <li key={key} {...optionProps}>
-                  <Checkbox
-                    icon={icon}
-                    checkedIcon={checkedIcon}
-                    style={{ marginRight: 8 }}
-                    checked={selected}
-                  />
-                  
-                   {option.unidade}
-                </li>
-              );
-            }}
+            renderOption={(props, option, { selected }) => (
+              <li {...props}>
+                <Checkbox
+                  icon={icon}
+                  checkedIcon={checkedIcon}
+                  style={{ marginRight: 8 }}
+                  checked={selected}
+                />
+                
+                 {option.unidade}
+              </li>
+            )}
             style={{ width: 500 }}
             renderInput={(params) => (
               <TextField
@@ -113,21 +111,18 @@ const {
             onChange={handleCategoriasChange} 
             options={allCategorias}
             getOptionLabel={(option) => option}
-            renderOption={(props, option, { selected }) => {
-              const { key, ...optionProps } = props;
-              return (
-                <li key={key} {...optionProps}>
-                  <LocationPinIcon style={{ color: categoryColors[option.toLowerCase()] || 'blue', marginRight: 8 }} />
-                  <Checkbox
-                    icon={icon}
-                    checkedIcon={checkedIcon}
-                    style={{ marginRight: 8 }}
-                    checked={selected}
-                  />
-                  {option}
-                </li>
-              );
-            }}
+            renderOption={(props, option, { selected }) => (
+              <li {...props}>
+                <LocationPinIcon style={{ color: categoryColors[option.toLowerCase()] || 'blue', marginRight: 8 }} />
+                <Checkbox
+                  icon={icon}
+                  checkedIcon={checkedIcon}
+                  style={{ marginRight: 8 }}
+                  checked={selected}
+                />
+                {option}
+              </li>
+            )}
             style={{ width: 500 }}
             renderInput={(params) => (
               <TextField
@@ -151,20 +146,17 @@ const {
             onChange={handleBairrosChange} 
             disableCloseOnSelect
             getOptionLabel={(option) => option}
-            renderOption={(props, option, { selected }) => {
-              const { key, ...optionProps } = props;
-              return (
-                <li key={key} {...optionProps}>
-                  <Checkbox
-                    icon={icon}
-                    checkedIcon={checkedIcon}
-                    style={{ marginRight: 8 }}
-                    checked={selected}
-                  />
-                  {option}
-                </li>
-              );
-            }}
+            renderOption={(props, option, { selected }) => (
+              <li {...props}>
+                <Checkbox
+                  icon={icon}
+                  checkedIcon={checkedIcon}
+                  style={{ marginRight: 8 }}
+                  checked={selected}
+                />
+                {option}
+              </li>
+            )}
             style={{ width: 500 }}
             renderInput={(params) => (
               <TextField
@@ -188,20 +180,17 @@ const {
             value={distritosFiltrados} 
             onChange={handleDistritosChange} 
             getOptionLabel={(option) => option}
-            renderOption={(props, option, { selected }) => {
-              const { key, ...optionProps } = props;
-              return (
-                <li key={key} {...optionProps}>
-                  <Checkbox
-                    icon={icon}
-                    checkedIcon={checkedIcon}
-                    style={{ marginRight: 8 }}
-                    checked={selected}
-                  />
-                  {option}
-                </li>
-              );
-            }}
+            renderOption={(props, option, { selected }) => (
+              <li {...props}>
+                <Checkbox
+                  icon={icon}
+                  checkedIcon={checkedIcon}
+                  style={{ marginRight: 8 }}
+                  checked={selected}
+                />
+                {option}
+              </li>
+            )}
             style={{ width: 500 }}
             renderInput={(params) => (
               <TextField

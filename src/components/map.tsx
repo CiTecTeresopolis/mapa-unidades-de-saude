@@ -319,7 +319,10 @@ function Map({
             Categoria: {unidadeSelecionada?.categoria}
           </Typography>
           <Typography variant="body1" sx={{ color: "text.secondary" }}>
-            Telefone: (22) 99999-9999
+            Telefones: {unidadeSelecionada?.telefones.join(" | ")}
+          </Typography>
+          <Typography variant="body1" sx={{ color: "text.secondary" }}>
+            Ramais: {unidadeSelecionada?.ramais.join(" | ")}
           </Typography>
           <Typography variant="body1" sx={{ color: "text.secondary" }}>
             Endereço: {unidadeSelecionada?.endereço} -{" "}

@@ -6,6 +6,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
+const drawerWidth = 256;
+
 let theme = createTheme({
   palette: {
     primary: {
@@ -53,108 +55,29 @@ theme = {
         root: {
           textTransform: "none",
         },
-        contained: {
-          boxShadow: "none",
-          "&:active": {
-            boxShadow: "none",
-          },
-        },
-      },
-    },
-    MuiTabs: {
-      styleOverrides: {
-        root: {
-          marginLeft: theme.spacing(1),
-        },
-        indicator: {
-          height: 3,
-          borderTopLeftRadius: 3,
-          borderTopRightRadius: 3,
-          backgroundColor: theme.palette.common.white,
-        },
-      },
-    },
-    MuiTab: {
-      styleOverrides: {
-        root: {
-          textTransform: "none",
-          margin: "0 16px",
-          minWidth: 0,
-          padding: 0,
-          [theme.breakpoints.up("md")]: {
-            padding: 0,
-            minWidth: 0,
-          },
-        },
-      },
-    },
-    MuiIconButton: {
-      styleOverrides: {
-        root: {
-          padding: theme.spacing(1),
-        },
-      },
-    },
-    MuiTooltip: {
-      styleOverrides: {
-        tooltip: {
-          borderRadius: 4,
-        },
-      },
-    },
-    MuiDivider: {
-      styleOverrides: {
-        root: {
-          backgroundColor: "rgb(255,255,255,0.15)",
-        },
-      },
-    },
-    MuiListItemButton: {
-      styleOverrides: {
-        root: {
-          "&.Mui-selected": {
-            color: "#4fc3f7",
-          },
-        },
-      },
-    },
-    MuiListItemText: {
-      styleOverrides: {
-        primary: {
-          fontSize: 14,
-          fontWeight: theme.typography.fontWeightMedium,
-        },
       },
     },
   },
 };
 
-const drawerWidth = 500;
-
 export default function Paperbase() {
   const isSmUp = useMediaQuery(theme.breakpoints.up("sm"));
-
-  const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
   const [unidadesFiltradas, setUnidadesFiltradas] = React.useState([]);
   const [categoriasFiltradas, setCategoriasFiltradas] = React.useState([]);
+  const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
   const [distritosFiltrados, setDistritosFiltrados] = React.useState([]);
 
-
-
-  const handleUnidadesChange = (newValues: any) => {
-    setUnidadesFiltradas(newValues);
+  const handleUnidadesChange = (event: any, value: any) => {
+    setUnidadesFiltradas(value);
   };
-
-  const handleCategoriasChange = (newValues: any) => {
-    setCategoriasFiltradas(newValues);
+  const handleCategoriasChange = (event: any, value: any) => {
+    setCategoriasFiltradas(value);
   };
-
-  const handleBairrosChange = (newValues: any) => {
-    setBairrosFiltrados(newValues);
+  const handleBairrosChange = (event: any, value: any) => {
+    setBairrosFiltrados(value);
   };
-
-  const handleDistritosChange = (newValues: any) => {
-    setDistritosFiltrados(newValues);
+  const handleDistritosChange = (event: any, value: any) => {
+    setDistritosFiltrados(value);
   };
 
   return (
@@ -165,7 +88,6 @@ export default function Paperbase() {
           component="nav"
           sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
         >
-          
           <Navigator
             PaperProps={{ style: { width: drawerWidth } }}
             sx={{ display: { sm: "block", xs: "none" } }}
