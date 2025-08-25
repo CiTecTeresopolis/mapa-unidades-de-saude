@@ -6,7 +6,7 @@ import CssBaseline from "@mui/material/CssBaseline";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 
-const drawerWidth = 256;
+const drawerWidth = 556;
 
 let theme = createTheme({
   palette: {
@@ -67,16 +67,20 @@ export default function Paperbase() {
   const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
   const [distritosFiltrados, setDistritosFiltrados] = React.useState([]);
 
-  const handleUnidadesChange = (value: any) => {
+  const handleUnidadesChange = (event: any, value: any) => {
+    console.log(event);
     setUnidadesFiltradas(value);
   };
-  const handleCategoriasChange = (value: any) => {
+  const handleCategoriasChange = (event: any, value: any) => {
+    console.log(event);
     setCategoriasFiltradas(value);
   };
-  const handleBairrosChange = (value: any) => {
+  const handleBairrosChange = (event: any, value: any) => {
+    console.log(event);
     setBairrosFiltrados(value);
   };
-  const handleDistritosChange = (value: any) => {
+  const handleDistritosChange = (event: any, value: any) => {
+    console.log(event);
     setDistritosFiltrados(value);
   };
 
