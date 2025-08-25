@@ -67,16 +67,16 @@ export default function Paperbase() {
   const [bairrosFiltrados, setBairrosFiltrados] = React.useState([]);
   const [distritosFiltrados, setDistritosFiltrados] = React.useState([]);
 
-  const handleUnidadesChange = (event: any, value: any) => {
+  const handleUnidadesChange = (value: any) => {
     setUnidadesFiltradas(value);
   };
-  const handleCategoriasChange = (event: any, value: any) => {
+  const handleCategoriasChange = (value: any) => {
     setCategoriasFiltradas(value);
   };
-  const handleBairrosChange = (event: any, value: any) => {
+  const handleBairrosChange = (value: any) => {
     setBairrosFiltrados(value);
   };
-  const handleDistritosChange = (event: any, value: any) => {
+  const handleDistritosChange = (value: any) => {
     setDistritosFiltrados(value);
   };
 
