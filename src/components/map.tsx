@@ -166,7 +166,6 @@ const geojsonData: any = {
             [-42.7943399226, -22.144521269],
             [-42.7795692111, -22.1334933754],
             [-42.7754811516, -22.1302590282],
-            [-42.779474, -22.124427],
             [-42.768511041, -22.1317400226],
             [-42.7649916235, -22.1281209689],
             [-42.7625153088, -22.127368691],
@@ -363,30 +362,31 @@ function Map({
         />
         {unidadesVisiveis.map((unidade: any, index: number) => (
           <Marker
-            key={index}
-            interactive={true}
-            icon={createCategoryIcon(unidade.categoria)}
-            position={[unidade.latitude, unidade.longitude]}
-            eventHandlers={{
-              click: () => {
-                setUnidadeSelecionada(unidade);
-              },
-            }}
-          >
-            <Tooltip
+              key={index}
+              interactive={true}
+              icon={createCategoryIcon(unidade.categoria)}
+              position={[unidade.latitude, unidade.longitude]}
               eventHandlers={{
                 click: () => {
                   setUnidadeSelecionada(unidade);
                 },
               }}
-              direction="top"
-              offset={[0, -20]}
-              opacity={1}
-              permanent
             >
-              {unidade.unidade.toUpperCase()}
-            </Tooltip>
-          </Marker>
+              <Tooltip
+                eventHandlers={{
+                  click: () => {
+                    setUnidadeSelecionada(unidade);
+                  },
+                }}
+                interactive={true}
+                direction="top"
+                offset={[0, -20]}
+                opacity={1}
+                permanent
+                >
+                {unidade.unidade.toUpperCase()}
+              </Tooltip>
+            </Marker>
         ))}
 
         <GeoJSON ref={geoJsonRef} data={geojsonData} style={defaultStyle} />
