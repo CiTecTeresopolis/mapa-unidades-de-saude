@@ -3,13 +3,13 @@
     {
       "unidade": "CEMUSA - São Pedro",
       "categoria": "Centro Municipal de Saúde",
-      "endereço": "Rua José Augusto da Costa",
-      "bairro": "Várzea",
+      "endereço": "Rua Palmira Maria de Oliveira, 80",
+      "bairro": "São Pedro",
       "distrito": "1° Distrito",
-      "latitude": -22.4304525,
-      "longitude": -42.9991032,
+      "latitude": -22.4305717,
+      "longitude": -42.9662367,
       "telefones": ["(21) 2043-3638"],
-      "ramais": [3057, 3058, 3059, 3060, 3061, 3062,3063]
+      "ramais": [3057, 3058, 3059, 3060, 3061, 3062, 3063]
     },
     {
       "unidade": "CEO - São Pedro",
@@ -17,21 +17,10 @@
       "endereço": "Rua Palmira Maria de Oliveira, 80",
       "bairro": "São Pedro",
       "distrito": "1° Distrito",
-      "latitude": -22.4298204,
-      "longitude": -42.9679324,
+      "latitude": -22.4305717,
+      "longitude": -42.9662367,
       "telefones": ["(21) 2644-9568"],
       "ramais": [3011]
-    },
-    {
-      "unidade": "CEO - Várzea",
-      "categoria": "Centro de Especialidades Odontológicas",
-      "endereço": "Rua Heitor de Moura Estevão, 300",
-      "bairro": "Várzea",
-      "distrito": "1° Distrito",
-      "latitude": -22.4078163,
-      "longitude": -42.969988,
-      "telefones": [""],
-      "ramais": []
     },
     {
       "unidade": "ESF - Alto",
@@ -39,19 +28,19 @@
       "endereço": "Rua São Gonçalo de Castro, n° 324",
       "bairro": "Alto",
       "distrito": "1° Distrito",
-      "latitude": -22.439889,
-      "longitude": -43.013272,
+      "latitude": -22.4399253,
+      "longitude": -42.981917,
       "telefones": ["(21) 2644-9569"],
       "ramais": [3012]
     },
     {
-      "unidade": "ESF - araras",
+      "unidade": "ESF - Araras",
       "categoria": "Estratégia de Saúde da Família",
       "endereço": "Rua Amazonas n° 35",
       "bairro": "Araras",
       "distrito": "1° Distrito",
-      "latitude": -22.4335549,
-      "longitude": -42.9730358,
+      "latitude": -22.433744398944206,
+      "longitude": -42.97043871633943,
       "telefones": ["(21) 2644-9570"],
       "ramais": [3013]
     },
@@ -61,8 +50,8 @@
       "endereço": "Avenida Presidente Roosevelt, 1510",
       "bairro": "Barra do Imbuí",
       "distrito": "1° Distrito",
-      "latitude": -22.4009171,
-      "longitude": -42.9826019,
+      "latitude": -22.400925105701248,
+      "longitude": -42.98036592640739,
       "telefones": ["(21) 2644-9571"],
       "ramais": [3014]
     },
@@ -72,19 +61,19 @@
       "endereço": "Rua Guaporé, 175",
       "bairro": "Beira Linha",
       "distrito": "1° Distrito",
-      "latitude": -22.430428,
-      "longitude": -42.9794648,
+      "latitude": -22.430473931892553,
+      "longitude": -42.9768630389918,
       "telefones": ["(21) 2644-9572"],
       "ramais": [3015]
     },
     {
       "unidade": "ESF - Fazenda Ermitage",
       "categoria": "Estratégia de Saúde da Família",
-      "endereço": "Estrada Rio Bahia, km 116",
+      "endereço": "Rua Wilhelm Cristian Kleme",
       "bairro": "Fazenda Ermitage",
       "distrito": "1° Distrito",
-      "latitude": -22.3856,
-      "longitude": -42.9234,
+      "latitude": -22.41731768369131,
+      "longitude": -42.9472996887169,
       "telefones": ["(21) 2644-9573"],
       "ramais": [3016]
     },
@@ -138,8 +127,8 @@
       "endereço": "Rua Dr. Oliveira, 950",
       "bairro": "Pimenteiras",
       "distrito": "1° Distrito",
-      "latitude": -22.4267,
-      "longitude": -42.9523,
+      "latitude": -22.403920257192258,
+      "longitude": -42.976786156757214,
       "telefones": ["(21) 2644-9577"],
       "ramais": [3021]
     },
@@ -149,8 +138,8 @@
       "endereço": "Rua Manoel Carreiro de Mello",
       "bairro": "Pimentel",
       "distrito": "1° Distrito",
-      "latitude": -22.4039493,
-      "longitude": -42.9792463,
+      "latitude": -22.428155008241415,
+      "longitude": -42.96108242018886,
       "telefones": ["(21) 2644-9578"],
       "ramais": [3022]
     },
@@ -215,8 +204,8 @@
       "endereço": "Estrada Teresópolis - Friburgo, km 28",
       "bairro": "Bonsucesso",
       "distrito": "3° Distrito",
-      "latitude": -22.3585493,
-      "longitude": -42.8664014,
+      "latitude": -22.27436178114461,
+      "longitude": -42.7960429463006,
       "telefones": ["(21) 2644-9583"],
       "ramais": [3027]
     },
@@ -226,8 +215,8 @@
       "endereço": "Praça dos Expedicionários",
       "bairro": "São Pedro",
       "distrito": "1° Distrito",
-      "latitude": -22.4252162,
-      "longitude": -42.9687148,
+      "latitude": -22.425377836434357,
+      "longitude": -42.96586243402603,
       "telefones": ["(21) 2644-9592", "(21) 2043-3638"],
       "ramais": [3039, 3040]
     },
@@ -244,7 +233,7 @@
     },
     {
       "unidade": "UBS Albuquerque",
-      "categoria": "unidade Básica",
+      "categoria": "Unidade Básica",
       "endereço": "Rodovia Dr Rogério de Moura Estevão, km 6,5",
       "bairro": "Albuquerque",
       "distrito": "1° Distrito",
@@ -325,8 +314,8 @@
       "endereço": "Rua Ten. Luiz Meireles, 1260",
       "bairro": "Bom Retiro",
       "distrito": "1° Distrito",
-      "latitude": -22.4217147,
-      "longitude": -42.9659232,
+      "latitude": -22.421698631123746,
+      "longitude": -42.96326578527875,
       "telefones": ["(21) 2644-9591", "(21) 2043-3638" ],
       "ramais": [3037, 3038, 3055, 3056]
     }
