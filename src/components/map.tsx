@@ -322,9 +322,6 @@ function Map({
             Telefones: {unidadeSelecionada?.telefones.join(" | ")}
           </Typography>
           <Typography variant="body1" sx={{ color: "text.secondary" }}>
-            Ramais: {unidadeSelecionada?.ramais.join(" | ")}
-          </Typography>
-          <Typography variant="body1" sx={{ color: "text.secondary" }}>
             Endereço: {unidadeSelecionada?.endereço} -{" "}
             {unidadeSelecionada?.bairro}
           </Typography>
