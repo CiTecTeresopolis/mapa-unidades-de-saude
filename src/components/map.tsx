@@ -269,7 +269,7 @@ function Map({
           );
         });
       }
-
+       setUnidadeSelecionada(null);
       setUnidadesVisiveis(filtrado);
     };
 
